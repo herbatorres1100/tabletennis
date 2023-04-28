@@ -8,7 +8,9 @@ body {
 
 main{
     
-    background: lightslategray;
+    background-image: url("pingpong.jpg");
+    background-size: cover;
+    
     margin: 30px auto;
     max-width: 600px;
     border: 3px solid black;
@@ -18,8 +20,6 @@ main{
 }
 
 #container {
-    background-image: url("pingpong.jpeg");
-    background-size: cover;
     background-image: 50% 50%;
     border-radius: 30px;
     display: flex;
