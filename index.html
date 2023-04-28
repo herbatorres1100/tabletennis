@@ -1,0 +1,36 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <main>
+        <h1>Table Tennis 🏓 </h1>
+        <p>"EVERY BALL COUNTS." - Sir Matt</p>
+        <div id="container">
+            <div class="player-a">
+                <h2 id="player-el-a">0</h2>
+                <button id="player-a-btn" onclick="playera()">Player A</button>
+            </div>
+            <div class="player-b">
+                <h2 id="player-el-b">0</h2>
+                <button id="player-b-btn" onclick="playerb()">Player B</button>
+            </div>
+        </div>
+        <div id="bottom-btns">
+            <div>
+                <button id="new-game-btn" onclick="reset()">NEW GAME</button>
+            </div>
+            <div>
+                <button id="new-set-btn" onclick="newset()">NEW SET</button>
+            </div>
+        </div>
+            <p id="reset-el">Games Played:</p>
+        <script src="index.js">
+        </script>
+    </main>
+    </body>
+</html>
