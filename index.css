@@ -1,16 +1,16 @@
 body {
-    background: black;
+    background: darkgrey;
     background-size: cover;
     font-family: 'Luckiest Guy', cursive;
     text-align: center;
+    background:#34589e;
+    
 
 }
 
 main{
     
-    background-image: url("pingpong.jpg");
-    background-size: cover;
-    
+    background: black;
     margin: 30px auto;
     max-width: 600px;
     border: 3px solid black;
@@ -20,7 +20,8 @@ main{
 }
 
 #container {
-    background-image: 50% 50%;
+    background-image: url("pingpong.jpeg");
+    background-size: cover;
     border-radius: 30px;
     display: flex;
     margin: 0 auto;
@@ -30,7 +31,13 @@ main{
     justify-content: space-between
 }
 
+p {
+    
+color: white;
+}
+
 h1 {
+    color: white;
     font-size: 25px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -83,7 +90,7 @@ button {
 #reset-el {
     max-width: 175px;
     margin: 0 auto;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
     
     text-align: left
 }
