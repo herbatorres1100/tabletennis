@@ -4,6 +4,7 @@ let countElb = document.getElementById("player-el-b")
 
 let countA = 0
 let countB = 0
+let countNum = 0
 
 function playera() {
     countA += 1
