@@ -15,19 +15,16 @@ function playerb() {
     countElb.innerHTML = countB
 }
 function reset() {
-    let countStrA =  " 1 "
-    resetEl.textContent += countStrA
+    countNum ++
+    resetEl.textContent = "Games Played: " + countNum
     countEla.textContent = 0
     countA = 0
-    
-    let countStrB = ""
-    resetEl.textContent += countStrB
     countElb.textContent = 0
     countB = 0
 }
 
 function newset(){
-    location.reload()
+    reset()
+    countNum = 0
+    resetEl.textContent = "Games Played: " + countNum
 }
-
-
