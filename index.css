@@ -26,6 +26,7 @@ main{
     background-position: center;
     border-radius: 30px;
     display: flex;
+    flex-wrap: wrap;
     margin: 0 auto;
     border: 4px solid white;
     padding: 30px;
@@ -90,6 +91,7 @@ button {
     max-width: 500px;
     padding: 30px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
